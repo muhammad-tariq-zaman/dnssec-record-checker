@@ -1,0 +1,10 @@
+; Sample zone file (sample data)
+example.com. 3600 IN SOA ns1.example.com. admin.example.com. 2026111601 7200 3600 1209600 3600
+example.com. 3600 IN DS 12345 8 2 ABCDEF0123456789
+example.com. 3600 IN DNSKEY 257 3 8 AwEAAaBcDeFg
+example.org. 3600 IN SOA ns1.example.org. admin.example.org. 2026111601 7200 3600 1209600 3600
+example.org. 3600 IN DNSKEY 256 3 8 AwEAAaBcDeFg
+example.net. 3600 IN SOA ns1.example.net. admin.example.net. 2026111601 7200 3600 1209600 3600
+example.net. 3600 IN DS 54321 8 2 0123456789ABCDEF
+example.edu. 3600 IN SOA ns1.example.edu. admin.example.edu. 2026111601 7200 3600 1209600 3600
+bad.example.com. 3600 IN DS 999
